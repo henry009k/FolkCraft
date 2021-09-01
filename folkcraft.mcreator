@@ -9,12 +9,61 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "baguette"
+    },
+    {
+      "name": "ExplosiveArrow",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosive_arrow"
+    },
+    {
+      "name": "ExplosiveBowBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosive_bow_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExplosiveBow",
+      "type": "rangeditem",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosive_bow"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.folkcraft.explosive_bow": "Explosive Bow",
+      "item.folkcraft.explosive_arrow": "Explosive Arrow",
       "item.folkcraft.baguette": "Baguette"
     }
   },
